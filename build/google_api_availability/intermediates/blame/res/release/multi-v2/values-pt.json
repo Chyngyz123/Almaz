@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\google_api_availability\\intermediates\\res\\merged\\release\\values-pt\\values-pt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\f13bb6e513aa65624e679e97c733ac28\\core-1.2.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\google_api_availability\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt\\values-pt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\f13bb6e513aa65624e679e97c733ac28\\core-1.2.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

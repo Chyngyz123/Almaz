@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\razorpay_flutter\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\a8e028b28b7df41e9b6952597f4a278e\\jetified-checkout-1.5.16\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endLines": "2,13",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,745"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\razorpay_flutter\\intermediates\\res\\merged\\release\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\a8e028b28b7df41e9b6952597f4a278e\\jetified-checkout-1.5.16\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endLines": "2,13",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,745"
+                    }
+                }
+            ]
+        }
+    ]
+}

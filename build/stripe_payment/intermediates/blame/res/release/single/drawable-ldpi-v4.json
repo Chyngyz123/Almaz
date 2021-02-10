@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_amex_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_amex_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_unionpay_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_unionpay_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_visa.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_visa.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_checkmark_tinted.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_checkmark_tinted.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_add_black_32dp.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_add_black_32dp.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_jcb.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_jcb.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_error.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_error.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_cvc.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_cvc.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_error_amex.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_error_amex.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_discover_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_discover_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_amex.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_amex.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_bank_generic.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_bank_generic.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_cvc_amex.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_cvc_amex.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_arrow.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\90074e5c13864059fbb69d106a83b4cb\\jetified-stripe-3ds2-android-1.2.2\\res\\drawable-ldpi-v4\\ic_arrow.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_diners.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_diners.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_checkmark.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_checkmark.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_mastercard.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_mastercard.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_diners_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_diners_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_jcb_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_jcb_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_discover.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_discover.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_mastercard_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_mastercard_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_visa_template_32.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_visa_template_32.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_indicator.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\90074e5c13864059fbb69d106a83b4cb\\jetified-stripe-3ds2-android-1.2.2\\res\\drawable-ldpi-v4\\ic_indicator.png"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_unknown.png",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-ldpi-v4\\ic_unknown.png"
+    }
+]

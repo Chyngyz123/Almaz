@@ -1,0 +1,783 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.almaz.distributions"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:8:5-67
+14-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:9:5-81
+15-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:10:5-80
+16-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:11:5-66
+17-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:11:22-63
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:12:5-80
+18-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:13:5-79
+19-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:14:5-81
+20-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:15:5-65
+21-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:15:22-62
+22    <uses-permission android:name="android.permission.FLASHLIGHT" />
+22-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:16:5-69
+22-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:16:22-66
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:connectivity] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+23-->[:connectivity] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[:connectivity] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+24-->[:connectivity] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0c8042de58d8dbbf57a7ba0d7f40c955\jetified-play-services-measurement-api-17.4.1\AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0c8042de58d8dbbf57a7ba0d7f40c955\jetified-play-services-measurement-api-17.4.1\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:26:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:26:22-107
+33
+34    <uses-feature
+34-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:12:5-14:36
+35        android:name="android.hardware.camera"
+35-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:13:9-47
+36        android:required="false" />
+36-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:14:9-33
+37    <uses-feature
+37-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:15:5-17:36
+38        android:name="android.hardware.camera.autofocus"
+38-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:16:9-57
+39        android:required="false" />
+39-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:17:9-33
+40    <!--
+41 android:name="io.flutter.app.FlutterApplication"
+42    android:name="io.flutter.app.FlutterApplication"
+43    android:name=".Application"
+44    -->
+45    <application
+45-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:20:5-83:19
+46        android:name="com.almaz.distributions.Application"
+46-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:21:9-36
+47        android:allowBackup="true"
+47-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:14:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\cf333db07bc798f2163881ad6a45781a\core-1.3.0\AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:25:9-43
+51        android:label="Almaz"
+51-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:24:9-30
+52        android:supportsRtl="true"
+52-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:16:9-35
+53        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+53-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-74
+54        android:usesCleartextTraffic="true" >
+54-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:23:9-44
+55        <activity
+55-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:26:9-50:20
+56            android:name="com.almaz.distributions.MainActivity"
+56-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:27:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:30:13-163
+58            android:hardwareAccelerated="true"
+58-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:31:13-47
+59            android:launchMode="singleTop"
+59-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:28:13-43
+60            android:theme="@style/LaunchTheme"
+60-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:29:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:32:13-55
+62
+63            <!--
+64                 This keeps the window background of the activity showing
+65                 until Flutter renders its first frame. It can be removed if
+66                 there is no splash screen (such as the default splash screen
+67                 defined in @style/LaunchTheme).
+68            -->
+69            <meta-data
+69-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:37:13-39:40
+70                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+70-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:38:17-82
+71                android:value="true" />
+71-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:39:17-37
+72
+73            <intent-filter>
+73-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:41:13-44:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:42:17-68
+74-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:42:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:43:17-76
+76-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:43:27-74
+77            </intent-filter>
+78            <intent-filter>
+78-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:45:13-48:29
+79                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+79-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:46:17-69
+79-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:46:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:17-76
+81-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:27-73
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:51:9-59:20
+85            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+85-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:51:19-90
+86            android:launchMode="singleTask" >
+86-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:52:13-44
+87            <intent-filter>
+87-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:53:13-58:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:17-69
+88-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:17-76
+90-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:17-78
+91-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:27-75
+92
+93                <data android:scheme="com.almaz.distributions.braintree" />
+94            </intent-filter>
+95        </activity>
+96
+97        <meta-data
+97-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:60:9-61:46
+98            android:name="com.facebook.sdk.ApplicationId"
+98-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:60:20-65
+99            android:value="@string/facebook_app_id" />
+99-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:61:5-44
+100        <!-- TODO: Replace with your real AdMob app ID -->
+101        <meta-data
+101-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:63:5-65:66
+102            android:name="com.google.android.gms.ads.APPLICATION_ID"
+102-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:64:13-69
+103            android:value="@string/android__admob_ads_id_key" />
+103-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:65:13-63
+104
+105        <activity
+105-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:66:9-69:40
+106            android:name="com.facebook.FacebookActivity"
+106-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:66:19-63
+107            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+107-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:67:5-101
+108            android:label="@string/app_name"
+108-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:69:5-37
+109            android:theme="@style/com_facebook_activity_theme" />
+109-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\aec8dec68da717970c14db24627596f3\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+110        <activity
+110-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:70:9-79:20
+111            android:name="com.facebook.CustomTabActivity"
+111-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:71:13-58
+112            android:exported="true" >
+112-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:72:13-36
+113            <intent-filter>
+113-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:73:13-78:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:17-69
+114-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:17-76
+116-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:27-73
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:17-78
+117-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:27-75
+118
+119                <data android:scheme="@string/fb_login_protocol_scheme" />
+120            </intent-filter>
+121        </activity>
+122
+123        <meta-data
+123-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:80:10-82:33
+124            android:name="flutterEmbedding"
+124-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:81:13-44
+125            android:value="2" />
+125-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:82:13-30
+126
+127        <activity
+127-->[:razorpay_flutter] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:20
+128            android:name="com.razorpay.CheckoutActivity"
+128-->[:razorpay_flutter] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-57
+129            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+129-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:20:13-83
+130            android:label="Razorpay Checkout"
+130-->[:razorpay_flutter] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\razorpay_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-46
+131            android:theme="@style/CheckoutTheme" >
+131-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:21:13-49
+132            <intent-filter>
+132-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:22:13-28:29
+133                <action android:name="android.intent.action.MAIN" />
+133-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:42:17-68
+133-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:42:25-66
+134
+135                <data
+136                    android:host="rzp.io"
+137                    android:scheme="io.rzp" />
+138            </intent-filter>
+139        </activity>
+140
+141        <meta-data
+141-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+142            android:name="com.google.android.gms.wallet.api.enabled"
+142-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
+143            android:value="true" />
+143-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+144
+145        <activity
+145-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:75
+146            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+146-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-67
+147            android:exported="false"
+147-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+148            android:launchMode="singleTask"
+148-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+149-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-72
+150        <activity
+150-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-34:20
+151            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+151-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-67
+152            android:exported="true"
+152-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-36
+153            android:launchMode="singleTask"
+153-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-44
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+154-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-83
+155            <intent-filter>
+155-->[:stripe_payment] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\stripe_payment\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:17-69
+156-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:54:25-66
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:17-76
+158-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:47:27-73
+159                <category android:name="android.intent.category.BROWSABLE" />
+159-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:17-78
+159-->G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\android\app\src\main\AndroidManifest.xml:56:27-75
+160
+161                <data android:scheme="example" />
+162            </intent-filter>
+163        </activity>
+164
+165        <service
+165-->[:firebase_auth] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+166            android:name="com.google.firebase.components.ComponentDiscoveryService"
+166-->[:firebase_auth] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+167            android:directBootAware="true"
+167-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:37:13-37
+169            <meta-data
+169-->[:firebase_auth] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+170                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+170-->[:firebase_auth] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[:firebase_auth] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+172            <meta-data
+172-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+173                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+173-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+175            <meta-data
+175-->[:firebase_core] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+176                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+176-->[:firebase_core] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[:firebase_core] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:38:13-40:85
+179                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+179-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:39:17-119
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:40:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+182                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+182-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+184            <meta-data
+184-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0c8042de58d8dbbf57a7ba0d7f40c955\jetified-play-services-measurement-api-17.4.1\AndroidManifest.xml:30:13-32:85
+185                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+185-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0c8042de58d8dbbf57a7ba0d7f40c955\jetified-play-services-measurement-api-17.4.1\AndroidManifest.xml:31:17-139
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0c8042de58d8dbbf57a7ba0d7f40c955\jetified-play-services-measurement-api-17.4.1\AndroidManifest.xml:32:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:32:13-34:85
+188                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+188-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:33:17-96
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:34:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a2889e78a02a880771fae24b52633502\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+191                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+191-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a2889e78a02a880771fae24b52633502\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a2889e78a02a880771fae24b52633502\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\4de110d9c95c288563f9c50b5f063727\jetified-firebase-installations-16.3.0\AndroidManifest.xml:17:13-19:85
+194                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+194-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\4de110d9c95c288563f9c50b5f063727\jetified-firebase-installations-16.3.0\AndroidManifest.xml:18:17-127
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\4de110d9c95c288563f9c50b5f063727\jetified-firebase-installations-16.3.0\AndroidManifest.xml:19:17-82
+196        </service>
+197        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+197-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+197-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+198            <intent-filter>
+198-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+199-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+199-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+200            </intent-filter>
+201        </service>
+202
+203        <activity
+203-->[:flutter_paystack] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_paystack\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-12:54
+204            android:name="co.paystack.flutterpaystack.AuthActivity"
+204-->[:flutter_paystack] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_paystack\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-68
+205            android:theme="@style/Paystack.Dialog" />
+205-->[:flutter_paystack] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_paystack\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-51
+206        <activity
+206-->[:url_launcher] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+207            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+207-->[:url_launcher] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+208            android:exported="false"
+208-->[:url_launcher] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+209            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+209-->[:url_launcher] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+210
+211        <provider
+211-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-18:20
+212            android:name="androidx.core.content.FileProvider"
+212-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-62
+213            android:authorities="com.almaz.distributions.fileprovider"
+213-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-64
+214            android:exported="false"
+214-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-37
+215            android:grantUriPermissions="true" >
+215-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-47
+216            <meta-data
+216-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:53
+217                android:name="android.support.FILE_PROVIDER_PATHS"
+217-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+218                android:resource="@xml/filepaths" />
+218-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-50
+219        </provider>
+220        <!--
+221             FirebaseMessagingService performs security checks at runtime,
+222             but set to not exported to explicitly avoid allowing another app to call it.
+223        -->
+224        <service
+224-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:28:9-34:19
+225            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+225-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:29:13-82
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f3215b70c29c742ec87033c07ef2aa9e\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:30:13-37
+227            <intent-filter android:priority="-500" >
+227-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+228                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+228-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+228-->[:firebase_messaging] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+229            </intent-filter>
+230        </service>
+231
+232        <activity
+232-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:12:9-14:57
+233            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+233-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:13:13-76
+234            android:theme="@style/StripeDefaultTheme" />
+234-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:14:13-54
+235        <activity
+235-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:15:9-17:57
+236            android:name="com.stripe.android.view.PaymentMethodsActivity"
+236-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:16:13-74
+237            android:theme="@style/StripeDefaultTheme" />
+237-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:17:13-54
+238        <activity
+238-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:18:9-20:57
+239            android:name="com.stripe.android.view.PaymentFlowActivity"
+239-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:19:13-71
+240            android:theme="@style/StripeDefaultTheme" />
+240-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:20:13-54
+241        <activity
+241-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:21:9-23:57
+242            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+242-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:22:13-78
+243            android:theme="@style/StripeDefaultTheme" />
+243-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:23:13-54
+244        <activity
+244-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:24:9-26:57
+245            android:name="com.stripe.android.view.PaymentRelayActivity"
+245-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:25:13-72
+246            android:theme="@style/StripeDefaultTheme" />
+246-->[com.stripe:stripe-android:10.4.6] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\03fe90c058bc5fe3dbdecc1cf341543b\jetified-stripe-android-10.4.6\AndroidManifest.xml:26:13-54
+247
+248        <provider
+248-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
+249            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+249-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
+250            android:authorities="com.almaz.distributions.fishbunfileprovider"
+250-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
+251            android:exported="false"
+251-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
+252            android:grantUriPermissions="true" >
+252-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
+253            <meta-data
+253-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:53
+254                android:name="android.support.FILE_PROVIDER_PATHS"
+254-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+255                android:resource="@xml/provider_paths" />
+255-->[:flutter_webview_plugin] G:\ChyngyzCode\ps Flutter Multi Vendor Grocery\Flutter-Grocery(v1.0)\Mobile Source\Flutter-Grocery\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-50
+256        </provider>
+257
+258        <activity
+258-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
+259            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+259-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
+260            android:label="@string/album"
+260-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
+261            android:theme="@style/FishBunTheme" />
+261-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
+262        <activity
+262-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
+263            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+263-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
+264            android:theme="@style/FishBunTheme" />
+264-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
+265        <activity
+265-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
+266            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+266-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
+267            android:theme="@style/DetailViewTheme" />
+267-->[com.sangcomz:FishBun:0.11.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\afd64630c8431d777c114cea1d890737\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
+268        <activity
+268-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:18:9-20:64
+269            android:name="com.braintreepayments.api.dropin.DropInActivity"
+269-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:19:13-75
+270            android:theme="@style/bt_drop_in_activity_theme" />
+270-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:20:13-61
+271        <activity
+271-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:21:9-23:65
+272            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+272-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:22:13-76
+273            android:theme="@style/bt_add_card_activity_theme" />
+273-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:23:13-62
+274        <activity
+274-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:24:9-26:70
+275            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+275-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:25:13-81
+276            android:theme="@style/bt_vault_manager_activity_theme" />
+276-->[com.braintreepayments.api:drop-in:4.5.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f1954377ea1df6f8b83a32739ea176c1\jetified-drop-in-4.5.0\AndroidManifest.xml:26:13-67
+277        <activity
+277-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:12:9-14:54
+278            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+278-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:13:13-81
+279            android:theme="@style/Stripe3DS2Theme" />
+279-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:14:13-51
+280        <activity
+280-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:15:9-17:54
+281            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+281-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:16:13-95
+282            android:theme="@style/Stripe3DS2Theme" />
+282-->[com.stripe:stripe-3ds2-android:1.2.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\90074e5c13864059fbb69d106a83b4cb\jetified-stripe-3ds2-android-1.2.2\AndroidManifest.xml:17:13-51
+283        <activity
+283-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+284            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+284-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+285            android:excludeFromRecents="true"
+285-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+286            android:exported="false"
+286-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+287            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+287-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+288        <!--
+289            Service handling Google Sign-In user revocation. For apps that do not integrate with
+290            Google Sign-In, this service will never be started.
+291        -->
+292        <service
+292-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+293            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+293-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+294            android:exported="true"
+294-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+295            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+295-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\16823b94f95d1ba958238c2eef6701f1\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+296        <uses-library
+296-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+297            android:name="org.apache.http.legacy"
+297-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+298            android:required="false" />
+298-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e22f7de9537b93a0daf0af5a80b1174d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+299
+300        <activity
+300-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+301            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+301-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+302            android:excludeFromRecents="true"
+302-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+303            android:exported="true"
+303-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+304            android:launchMode="singleTask"
+304-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+305            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+305-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+306-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\95bd9d8134f4cfa3997bce8c67a4d7d1\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+307
+308        <receiver
+308-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:37:9-44:20
+309            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+309-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:38:13-78
+310            android:exported="true"
+310-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:39:13-36
+311            android:permission="com.google.android.c2dm.permission.SEND" >
+311-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:40:13-73
+312            <intent-filter>
+312-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:41:13-43:29
+313                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+313-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:42:17-81
+313-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\11f5d91d268b1eaea6aa4a1466279f67\jetified-firebase-iid-20.1.7\AndroidManifest.xml:42:25-78
+314            </intent-filter>
+315        </receiver>
+316
+317        <activity
+317-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e10d72cd6e190a4e674aa24e249344c9\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+318            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+318-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e10d72cd6e190a4e674aa24e249344c9\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+319            android:exported="false"
+319-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e10d72cd6e190a4e674aa24e249344c9\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+320            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+320-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e10d72cd6e190a4e674aa24e249344c9\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+321
+322        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+322-->[com.braintreepayments.api:braintree:3.7.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3fe75e275b39d0553a15a15315a6cbd9\jetified-braintree-3.7.2\AndroidManifest.xml:17:9-93
+322-->[com.braintreepayments.api:braintree:3.7.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3fe75e275b39d0553a15a15315a6cbd9\jetified-braintree-3.7.2\AndroidManifest.xml:17:18-90
+323
+324        <activity android:name="com.braintreepayments.api.ThreeDSecureActivity" />
+324-->[com.braintreepayments.api:braintree:3.7.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3fe75e275b39d0553a15a15315a6cbd9\jetified-braintree-3.7.2\AndroidManifest.xml:19:9-83
+324-->[com.braintreepayments.api:braintree:3.7.2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3fe75e275b39d0553a15a15315a6cbd9\jetified-braintree-3.7.2\AndroidManifest.xml:19:19-80
+325        <activity android:name="com.facebook.CustomTabMainActivity" />
+325-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\aec8dec68da717970c14db24627596f3\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+325-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\aec8dec68da717970c14db24627596f3\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+326
+327        <provider
+327-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+328            android:name="com.google.firebase.provider.FirebaseInitProvider"
+328-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+329            android:authorities="com.almaz.distributions.firebaseinitprovider"
+329-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+330            android:exported="false"
+330-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+331            android:initOrder="100" />
+331-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\e80826117f9961b481af711d153c1582\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+332
+333        <receiver
+333-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:29:9-33:20
+334            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+334-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:30:13-85
+335            android:enabled="true"
+335-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:31:13-35
+336            android:exported="false" >
+336-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:32:13-37
+337        </receiver>
+338
+339        <service
+339-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:35:9-38:40
+340            android:name="com.google.android.gms.measurement.AppMeasurementService"
+340-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:36:13-84
+341            android:enabled="true"
+341-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:37:13-35
+342            android:exported="false" />
+342-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:38:13-37
+343        <service
+343-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:39:9-43:72
+344            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+344-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:40:13-87
+345            android:enabled="true"
+345-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:41:13-35
+346            android:exported="false"
+346-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:42:13-37
+347            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+347-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\b6305b830609fa629d5e56fd1ce956f9\jetified-play-services-measurement-17.4.1\AndroidManifest.xml:43:13-69
+348        <activity
+348-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+349            android:name="com.google.android.gms.ads.AdActivity"
+349-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+350            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+350-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+352            android:theme="@android:style/Theme.Translucent" />
+352-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+353
+354        <provider
+354-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+355            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+355-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+356            android:authorities="com.almaz.distributions.mobileadsinitprovider"
+356-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+357            android:exported="false"
+357-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+358            android:initOrder="100" />
+358-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\0597d3723727b802826a7bfbe89969c6\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+359
+360        <meta-data
+360-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\7999be16f7e3b12008f798a5c8e4f915\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+361            android:name="com.google.android.gms.version"
+361-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\7999be16f7e3b12008f798a5c8e4f915\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+362            android:value="@integer/google_play_services_version" />
+362-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\7999be16f7e3b12008f798a5c8e4f915\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+363        <!--
+364         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+365         with the application context. This config is merged in with the host app's manifest,
+366         but there can only be one provider with the same authority activated at any given
+367         point; so if the end user has two or more different apps that use Facebook SDK, only the
+368         first one will be able to use the provider. To work around this problem, we use the
+369         following placeholder in the authority to identify each host application as if it was
+370         a completely different provider.
+371        -->
+372        <provider
+372-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+373            android:name="com.facebook.internal.FacebookInitProvider"
+373-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+374            android:authorities="com.almaz.distributions.FacebookInitProvider"
+374-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+375            android:exported="false" />
+375-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+376
+377        <receiver
+377-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+378            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+378-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+379            android:exported="false" >
+379-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+380            <intent-filter>
+380-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+381                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+381-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+381-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+382            </intent-filter>
+383        </receiver>
+384        <receiver
+384-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+385            android:name="com.facebook.CampaignTrackingReceiver"
+385-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+386            android:exported="true"
+386-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+387            android:permission="android.permission.INSTALL_PACKAGES" >
+387-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+388            <intent-filter>
+388-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+389                <action android:name="com.android.vending.INSTALL_REFERRER" />
+389-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+389-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a71e7cd61fe8aa822de30d93a1512572\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+390            </intent-filter>
+391        </receiver>
+392
+393        <service
+393-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+394            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+394-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+395            android:exported="false" >
+395-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+396            <meta-data
+396-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+397                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+397-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+398                android:value="cct" />
+398-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\f081aa236bfa3d2c1086b1742c0edb60\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+399        </service>
+400        <service
+400-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+401            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+401-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+402            android:exported="false"
+402-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+403            android:permission="android.permission.BIND_JOB_SERVICE" >
+403-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+404        </service>
+405
+406        <receiver
+406-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+407            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+407-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+408            android:exported="false" />
+408-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\3bcdd5e68833680f89e6aa6cce288abe\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+409
+410        <activity
+410-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:20:9-22:66
+411            android:name="io.card.payment.CardIOActivity"
+411-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:21:13-58
+412            android:configChanges="keyboardHidden|orientation" />
+412-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:22:13-63
+413        <activity android:name="io.card.payment.DataEntryActivity" />
+413-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:9-70
+413-->[io.card:android-sdk:5.5.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\8a30dc28eee31a76c6b43a2df6c5dfdc\jetified-android-sdk-5.5.1\AndroidManifest.xml:23:19-67
+414
+415        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+415-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:12:9-16:20
+415-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:12:19-63
+416            <intent-filter>
+416-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:13:13-15:29
+417                <action android:name="rzp.device_token.share" />
+417-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:14:17-65
+417-->[com.razorpay:checkout:1.5.16] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\a8e028b28b7df41e9b6952597f4a278e\jetified-checkout-1.5.16\AndroidManifest.xml:14:25-62
+418            </intent-filter>
+419        </receiver>
+420
+421        <activity
+421-->[com.braintreepayments.api:google-payment:3.1.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\58fbdc22d94325e9d5a3631ff2a506b1\jetified-google-payment-3.1.1\AndroidManifest.xml:12:9-14:62
+422            android:name="com.braintreepayments.api.GooglePaymentActivity"
+422-->[com.braintreepayments.api:google-payment:3.1.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\58fbdc22d94325e9d5a3631ff2a506b1\jetified-google-payment-3.1.1\AndroidManifest.xml:13:13-75
+423            android:theme="@style/bt_transparent_activity" />
+423-->[com.braintreepayments.api:google-payment:3.1.1] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\58fbdc22d94325e9d5a3631ff2a506b1\jetified-google-payment-3.1.1\AndroidManifest.xml:14:13-59
+424        <activity
+424-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:17:9-19:65
+425            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
+425-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:18:13-91
+426            android:theme="@style/CardinalSDKTheme.ActionBar" />
+426-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:19:13-62
+427        <activity
+427-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:20:9-23:76
+428            android:name="com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
+428-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:21:13-93
+429            android:theme="@style/CardinalSDKTheme.ActionBar"
+429-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:22:13-62
+430            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+430-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\Auto\.gradle\caches\transforms-2\files-2.1\fe17260c1ba870195ab8c64796abc47d\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:23:13-73
+431    </application>
+432
+433</manifest>

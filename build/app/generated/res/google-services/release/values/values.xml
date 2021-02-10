@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">743765783919-9s6qails6j485bcd9d0h7udum01e7j2k.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">743765783919</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6Pa0dXbtn0vyqW7rHYNemaZ-QYEhBaa4</string>
+    <string name="google_app_id" translatable="false">1:743765783919:android:0d7563f9bb6c3bcb0f649a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6Pa0dXbtn0vyqW7rHYNemaZ-QYEhBaa4</string>
+    <string name="google_storage_bucket" translatable="false">almaz-c4abb.appspot.com</string>
+    <string name="project_id" translatable="false">almaz-c4abb</string>
+</resources>

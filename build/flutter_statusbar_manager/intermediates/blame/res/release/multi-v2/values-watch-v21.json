@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_statusbar_manager\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\ab5c7257eaf9d3af8a91a0ead47b9743\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_statusbar_manager\\intermediates\\res\\merged\\release\\values-watch-v21\\values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\ab5c7257eaf9d3af8a91a0ead47b9743\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

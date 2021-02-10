@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\google_sign_in\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\0f38085871631bd465f3abbd23109d8a\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\google_sign_in\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\0f38085871631bd465f3abbd23109d8a\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\google_sign_in\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\0f38085871631bd465f3abbd23109d8a\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]

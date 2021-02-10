@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-anydpi-v24\\ic_unionpay_template_32.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-anydpi-v24\\ic_unionpay_template_32.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-anydpi-v24\\ic_bank_generic.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\03fe90c058bc5fe3dbdecc1cf341543b\\jetified-stripe-android-10.4.6\\res\\drawable-anydpi-v24\\ic_bank_generic.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-anydpi-v24\\ic_arrow.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\90074e5c13864059fbb69d106a83b4cb\\jetified-stripe-3ds2-android-1.2.2\\res\\drawable-anydpi-v24\\ic_arrow.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\stripe_payment\\intermediates\\res\\merged\\release\\drawable-anydpi-v24\\ic_indicator.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\90074e5c13864059fbb69d106a83b4cb\\jetified-stripe-3ds2-android-1.2.2\\res\\drawable-anydpi-v24\\ic_indicator.xml"
+    }
+]

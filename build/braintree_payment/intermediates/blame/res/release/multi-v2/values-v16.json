@@ -1,0 +1,124 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\braintree_payment\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\2131c262effea5bf8f8b1803ad291abd\\appcompat-1.0.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "166",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "334"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\f1954377ea1df6f8b83a32739ea176c1\\jetified-drop-in-4.5.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,6,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,295,788",
+                        "endLines": "5,14,25",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "290,783,1388"
+                    },
+                    "to": {
+                        "startLines": "7,11,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "339,534,1027",
+                        "endLines": "10,19,30",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "529,1022,1627"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\braintree_payment\\intermediates\\res\\merged\\release\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\2131c262effea5bf8f8b1803ad291abd\\appcompat-1.0.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "166",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "334"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\f1954377ea1df6f8b83a32739ea176c1\\jetified-drop-in-4.5.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,6,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,295,788",
+                        "endLines": "5,14,25",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "290,783,1388"
+                    },
+                    "to": {
+                        "startLines": "7,11,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "339,534,1027",
+                        "endLines": "10,19,30",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "529,1022,1627"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                }
+            ]
+        }
+    ]
+}

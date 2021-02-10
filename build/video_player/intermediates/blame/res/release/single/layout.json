@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\video_player\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\layout\\notification_action.xml"
+    }
+]

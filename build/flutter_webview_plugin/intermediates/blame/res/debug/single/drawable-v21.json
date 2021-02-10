@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\52c49e974fe8c98ce528b8300bc8a5a5\\core-1.1.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\c1d1fd0707ceb58863fa6253d82053e8\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\c1d1fd0707ceb58863fa6253d82053e8\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\c1d1fd0707ceb58863fa6253d82053e8\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\c1d1fd0707ceb58863fa6253d82053e8\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "G:\\ChyngyzCode\\ps Flutter Multi Vendor Grocery\\Flutter-Grocery(v1.0)\\Mobile Source\\Flutter-Grocery\\build\\flutter_webview_plugin\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Auto\\.gradle\\caches\\transforms-2\\files-2.1\\c1d1fd0707ceb58863fa6253d82053e8\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    }
+]
